@@ -32,6 +32,7 @@ body {
 .c-type {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.35em;
+  color: hsl(228, 12%, 48%);
 }
 
 .c-title {
