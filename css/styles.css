@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,500;1,700&family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&display=swap");
+body {
+  background-color: rgb(252, 237, 210);
+  position: relative;
+}
+
+.product {
+  width: 333px;
+  height: 500px;
+  border-radius: 15px 0 0 15px;
+}
+
+.card {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  left: 635px;
+  top: 200px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.container {
+  position: absolute;
+  margin: 0px 0px 10px 270px;
+
+  top: 10px;
+  left: 90px;
+  text-align: left;
+}
+
+.c-type {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.35em;
+}
+
+.c-title {
+  font-family: "Fraunces", sans-serif;
+  font-size: 36px;
+  width: 70%;
+  line-height: 1;
+}
+
+.c-description {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  width: 75%;
+  line-height: 1.7;
+  color: hsl(228, 12%, 48%);
+}
+
+.c-button {
+  font-size: 16px;
+  font-family: Montserrat;
+  padding: 15px 70px;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #18ab29;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background: #3d8168;
+}
+
+.c-button:hover {
+  background: #6dff99;
+}
+
+.c-button-cart {
+  position: relative;
+  margin-right: 10px;
+  width: 15px;
+  top: 2px;
+}
+
+.c-price1 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  color: #418169;
+}
+
+.c-price2 {
+  position: absolute;
+  font-family: "Fraunces", sans-serif;
+  text-decoration: line-through;
+  left: 180px;
+  top: 320px;
+  color: hsl(228, 12%, 48%);
+}
+
+.attribution {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
